@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Telephony</string>
+    <string name="papnamstr">Okasan</string>
+    <string name="papnumstr">09090909099</string>
+    <string name="mamnamstr">Otosan</string>
+    <string name="mamnumstr">09123456789</string>
+    <string name="kuynamstr">Jenny</string>
+    <string name="kuynumstr">09876543210</string>
+    <string name="atenamstr">Umbi</string>
+    <string name="atenumstr">09112233445</string>
+    <string name="bunnamstr">Baby</string>
+    <string name="bunnumstr">09887766554</string>
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/c"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textStyle="bold"
+        android:textSize="55sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/papname"
+            android:textColor="#FFD5B0B0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/papnamstr"/>
+
+        <TextView
+            android:id="@+id/papnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="@string/papnumstr"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:onClick="msgbtn"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sms"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="46dp"/>
+
+        <ImageButton
+            android:onClick="callbtn"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mamname"
+                android:textColor="#FFD5B0B0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="@string/mamnamstr"/>
+
+            <TextView
+                android:id="@+id/mamnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="@string/mamnumstr"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:onClick="msgbtn2"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sms"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="50dp"/>
+
+        <ImageButton
+            android:onClick="callbtn2"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kuyname"
+                android:textColor="#FFD5B0B0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="@string/kuynamstr"/>
+
+            <TextView
+                android:id="@+id/kuynum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="@string/kuynumstr"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:onClick="msgbtn3"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sms"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"/>
+
+        <ImageButton
+            android:onClick="callbtn3"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/atename"
+                android:textColor="#FFD5B0B0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="@string/atenamstr"/>
+
+            <TextView
+                android:id="@+id/atenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="@string/atenumstr"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:onClick="msgbtn4"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sms"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"/>
+
+        <ImageButton
+            android:onClick="callbtn4"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bunname"
+                android:textColor="#FFD5B0B0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="@string/bunnamstr"/>
+
+            <TextView
+                android:id="@+id/bunnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="@string/bunnumstr"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:onClick="msgbtn5"
+            android:layout_marginTop="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sms"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"/>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:onClick="callbtn5"
+            android:src="@drawable/phone"
+           />
+    </LinearLayout>
+
+
+
+</LinearLayout>
